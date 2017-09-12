@@ -33,7 +33,7 @@
     ]
   },
 
-  "about": {
+  "page": {
     "data": [
       {
         "type": "page",
@@ -68,19 +68,23 @@
         "type": "component",
         "id": "714ebf98-2cc6-419c-abef-710496343c1e",
         "attributes": {
-          "@tag": "ta-page-title",
-          "title": "What's this shax about?",
-          "subline":
-            "We'll discover that in this _dynamically_ rendered ~~Page~~ **RepeaterComponent**."
+          "tag": "ta-page-title",
+          "input": {
+            "title": "What's this shax about?",
+            "subline":
+              "We'll discover that in this _dynamically_ rendered ~~Page~~ **RepeaterComponent**."
+          }
         }
       },
       {
         "type": "component",
         "id": "33a8c0d5-c8c4-4eb0-963f-be5f127b70a2",
         "attributes": {
-          "@tag": "ta-bodytext",
-          "body":
-            "If you read this, this shax is awesome! Even works with **markdown**! Image! [http://placehold.it/50x50/kek](Kek)"
+          "tag": "ta-bodytext",
+          "input": {
+            "body":
+              "If you read this, this shax is awesome! Even works with **markdown**! Image! [http://placehold.it/50x50/kek](Kek)"
+          }
         }
       }
     ]
